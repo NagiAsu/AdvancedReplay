@@ -20,9 +20,9 @@ public class ReplayManager {
 		registerEvents();
 		registerCommands();
 		
-		if (ConfigManager.RECORD_STARTUP) {
+		/*if (ConfigManager.RECORD_STARTUP) {
 			ReplayAPI.getInstance().recordReplay(null, Bukkit.getConsoleSender(), new Player[] {});
-		}
+		}*/
 	}
 	
 	private static void registerEvents() {
